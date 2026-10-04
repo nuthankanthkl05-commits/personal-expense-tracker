@@ -1,2 +1,3 @@
 # Personal Expense Tracker Dependencies
 matplotlib>=3.8.0
+flask>=3.0.0
