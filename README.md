@@ -74,7 +74,7 @@ personal-expense-tracker/
 
 ### 1. Clone or Open the Repository
 ```bash
-git clone https://github.com/your-username/personal-expense-tracker.git
+git clone https://github.com/nuthankanthkl05-commits/personal-expense-tracker.git
 cd personal-expense-tracker
 ```
 
@@ -252,7 +252,7 @@ git commit -m "feat: initial commit of personal expense tracker project"
 Run the following commands in your terminal:
 ```bash
 git branch -M main
-git remote add origin https://github.com/<YOUR_GITHUB_USERNAME>/personal-expense-tracker.git
+git remote add origin https://github.com/nuthankanthkl05-commits/personal-expense-tracker.git
 git push -u origin main
 ```
 

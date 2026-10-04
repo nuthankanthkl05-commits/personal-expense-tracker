@@ -3,11 +3,11 @@ from setuptools import setup, find_packages
 setup(
     name="personal-expense-tracker",
     version="1.0.0",
-    author="Vinay",
+    author="nuthankanthkl05-commits",
     description="A command-line based Personal Expense Tracker with analytics and visualization",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/your-username/personal-expense-tracker",
+    url="https://github.com/nuthankanthkl05-commits/personal-expense-tracker",
     packages=find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
