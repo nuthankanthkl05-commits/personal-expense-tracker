@@ -98,7 +98,16 @@ pip install -r requirements.txt
 
 ## 🎮 How to Run
 
-Launch the application using:
+### Option 1: Modern Interactive Web Application (Recommended)
+Launch the web server:
+```bash
+python app.py
+```
+Then open your browser and navigate to:
+👉 **`http://localhost:5000`**
+
+### Option 2: Command-Line Interface (CLI)
+Launch the CLI application:
 ```bash
 python main.py
 ```
