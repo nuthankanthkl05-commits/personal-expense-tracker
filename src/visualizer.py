@@ -6,6 +6,8 @@ and monthly/weekly spending trends. Saves high-quality images and displays them.
 
 import os
 from typing import List, Dict, Any, Optional
+import matplotlib
+matplotlib.use("Agg")  # Cloud-safe headless backend for servers and Render
 import matplotlib.pyplot as plt
 from src.tracker import (
     calculate_spending_by_category,

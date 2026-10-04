@@ -260,6 +260,32 @@ Your project will now be live, public, and accessible to everyone on GitHub!
 
 ---
 
+## ☁️ Deploying to Render (Free Cloud Hosting)
+
+This project is pre-configured with `render.yaml` and `Procfile` for instant zero-configuration deployment on [Render](https://render.com).
+
+### Method 1: Render Blueprints (Recommended - 1 Click)
+1. Go to your [Render Dashboard](https://dashboard.render.com/).
+2. Click **New +** and select **Blueprint**.
+3. Connect your GitHub repository (`nuthankanthkl05-commits/personal-expense-tracker`).
+4. Render automatically reads `render.yaml` and sets up the Python environment, dependencies, and `gunicorn` start command.
+5. Click **Apply**. Within 2 minutes, your web application will be live at a public `https://personal-expense-tracker-xxxx.onrender.com` URL!
+
+### Method 2: Manual Web Service Setup
+1. Go to [Render Dashboard](https://dashboard.render.com/).
+2. Click **New +** -> **Web Service**.
+3. Choose your repository: `nuthankanthkl05-commits/personal-expense-tracker`.
+4. Configure settings:
+   * **Name**: `personal-expense-tracker`
+   * **Language**: `Python 3`
+   * **Branch**: `main`
+   * **Build Command**: `pip install -r requirements.txt`
+   * **Start Command**: `gunicorn app:app`
+   * **Plan**: `Free`
+5. Click **Create Web Service**.
+
+---
+
 ## 📜 License
 
 This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for details. It is free and open to everyone for study, modification, and distribution.
